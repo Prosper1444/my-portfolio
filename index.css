@@ -274,6 +274,14 @@ footer {
     margin-bottom: 1rem;
   }
 
+  .section-2 {
+    width: 100%;
+    margin-top: 2rem;
+    /* background-color: rgba(140, 0, 255, 0.356); */
+    /* height: auto; */
+    text-align: center;
+    color: white;
+  }
   .section2-image-container {
     width: 80%;
     display: grid;
