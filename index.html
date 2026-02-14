@@ -8,6 +8,44 @@
     <script defer src="index.js"></script>
   </head>
   <body>
+    <!-- NAV BAR -->
+
+    <!-- MOBILE NAV BAR ON THE SIDE -->
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><img
+              src="image/close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
+              alt=""
+          /></a>
+        </li>
+        <li><a href="#">Pro_Creative</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+
+      <!-- DESKTOP NAV ON THE TOP -->
+      <ul>
+        <li><a href="#">Pro_Creative</a></li>
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#">Projects</a></li>
+        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="hideOnMobile"><a href="#footer">Contact</a></li>
+        <li class="hideOnMobile"><a href="#"></a></li>
+        <li onclick="showSidebar()" class="menu-button">
+          <a href="#"
+            ><img
+              src="image/menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
+              alt=""
+          /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- NAV BAR ENDS-->
     <!--     DARK MODE BEGINS -->
     <!-- <input type="checkbox" id="dark-mode" class="input" />
     <label for="dark-mode" class="label">
@@ -89,7 +127,7 @@
     </section>
 
     <!-- FOOTER AREA -->
-    <footer>
+    <footer id="footer">
       <div>
         <p></p>
         <p>Contact:</p>
