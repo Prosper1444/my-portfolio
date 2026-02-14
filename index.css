@@ -187,6 +187,13 @@ img {
 .card button:hover {
   background-color: aquamarine;
 }
+
+.card button a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 @keyframes appear {
   from {
     opacity: 0;
