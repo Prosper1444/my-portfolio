@@ -278,7 +278,7 @@ footer {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: rgb(255, 174, 0);
+    /* background-color: rgb(255, 174, 0); */
     margin: 0.5rem auto;
     gap: 0.5rem;
   }
