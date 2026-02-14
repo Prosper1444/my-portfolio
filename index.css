@@ -331,7 +331,7 @@ footer {
 }
 
 /* MEDIA QUERY FOR MOBILE PHONE */
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .hideOnMobile {
     display: none;
   }
