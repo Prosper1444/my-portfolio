@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: 0;
 }
-/* html {
-  height: 100%;
-} */
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: linear-gradient(#eceffe, #ced6fb);
   font-family: "Montserrat", "san-serif";
@@ -289,7 +289,9 @@ footer {
   .hideOnMobile {
     display: none;
   }
-
+  .menu-button {
+    display: flex;
+  }
   .sidebar {
     width: 70%;
   }
@@ -335,7 +337,9 @@ footer {
   .hideOnMobile {
     display: none;
   }
-
+  .menu-button {
+    display: flex;
+  }
   .sidebar {
     width: 100%;
   }
